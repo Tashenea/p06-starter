@@ -46,8 +46,8 @@ int main(int argc, char* argv[])
 
 #ifdef _DEBUG
 	//makes debugging easier by allowing you to directly load in files w/o using command line
-	Preprocessor prep{ "sample4.asm" };
-	ofstream output{ "sample4.hack" };
+	Preprocessor prep{ "sample5.asm" };
+	ofstream output{ "sample5.hack" };
 #else
 
 	if (argc != 4)

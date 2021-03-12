@@ -176,6 +176,7 @@
     <None Include="sample3.hack" />
     <None Include="sample4.asm" />
     <None Include="sample4.hack" />
+    <None Include="sample5.asm" />
     <None Include="simple.asm" />
     <None Include="simple.hack" />
   </ItemGroup>

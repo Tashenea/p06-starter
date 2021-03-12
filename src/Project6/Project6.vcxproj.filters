@@ -82,5 +82,8 @@
     <None Include="sample4.hack">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="sample5.asm">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
