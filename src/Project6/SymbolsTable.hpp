@@ -31,6 +31,7 @@ public:
 	int& operator[](string key)
 	{
 		//key not found, add new entry
+		//if _lookup_table[key] == null
 		if (_lookup_table.find(key) == _lookup_table.end())
 		{
 			_lookup_table[key] = _address_counter;

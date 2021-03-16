@@ -114,7 +114,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -177,6 +177,7 @@
     <None Include="sample4.asm" />
     <None Include="sample4.hack" />
     <None Include="sample5.asm" />
+    <None Include="sample5.hack" />
     <None Include="simple.asm" />
     <None Include="simple.hack" />
   </ItemGroup>

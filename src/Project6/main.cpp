@@ -43,23 +43,22 @@ void preprocessor_example()
 
 int main(int argc, char* argv[])
 {
-
 #ifdef _DEBUG
 	//makes debugging easier by allowing you to directly load in files w/o using command line
-	Preprocessor prep{ "sample5.asm" };
-	ofstream output{ "sample5.hack" };
+	Preprocessor prep{ "AllOps.asm" };
+	ofstream output{ "AllOps.hack" };
 #else
 
-	if (argc != 4)
+	if (argc != 3)
 	{
 		cout << "Usage: <PROGRAM_NAME>.EXE <ASM_FILE> <HACK_FILE>" << endl;
 		return -1;
 	}
 
-	Preprocessor prep{ argv[2] };
+	Preprocessor prep{ argv[1] };
 
-	//TODO: use argv[3] to write to output file
-	ofstream output{ argv[3] };
+	//TODO: use argv[2] to write to output file
+	ofstream output{ argv[2] };
 
 #endif // DEBUG
 
